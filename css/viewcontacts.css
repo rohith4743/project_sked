@@ -1,0 +1,75 @@
+.letter{
+    text-align: right;
+}
+img{
+    
+    width: 60px;
+    height: 60px;
+}
+.names{
+    /* border: 1px solid gray; */
+    padding: 10px;
+    margin: 5px;
+    background-color: rgba(0,0,0,0.2);
+    padding: 15px;
+}
+.cname{
+    font-size: 25px;
+    font-family: "Arial", Sans-serif;
+    text-transform: capitalize;
+    color: azure;
+    width: 70%;
+    margin: 0%;
+    padding-left: 10px;
+}
+.cuser{
+    height: 20px;
+    width: 60%;
+    margin: 0%;
+    color: aliceblue;
+}
+.names button{
+    width: 40%;
+    background-color: rgba(80, 80, 80, 0.5);
+    border:1px solid gray;
+    color: gainsboro;
+    font-family: 'Avenir Next';
+    text-transform: capitalize;
+}
+body{
+    background-color:rgb(15,15,15);
+}
+.letter{
+    color: white;
+    font-size: 40px;
+    padding-top: 20px;
+    font-family: "Lucida Console", Monaco, monospace
+}
+.eachletter{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.namesrow{
+    margin:0px;
+}
+.details{
+    color: white;
+}
+.details button{
+    width: 40px;
+    float: right;
+    border: none;
+    background: transparent;
+    font-size: 20px;
+}
+.ui-autocomplete { z-index:2147483647; }
+.modal-body .row{
+    margin-top: 10px;
+} 
+.modal-body label{
+    text-align: right;
+}
+.modalerrors{
+    text-align: center;
+    color: red;
+}

@@ -1,0 +1,18 @@
+[
+    {
+        "eventid": "1",
+        "ename": "arey internal",
+        "eventtype": "meeting",
+        "startdate": "2019-03-19 08:10:00",
+        "enddate": "2019-03-19 09:50:00",
+        "description": "we have to do well",
+        "creator": "prakash",
+        "counterpaert": "rohith4743",
+        "visibility": "public",
+        "venue": "sir lab",
+        "status": "yet",
+        "repeating": null,
+        "priority": "3",
+        "qu": null
+    }
+]

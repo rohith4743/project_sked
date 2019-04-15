@@ -1,0 +1,105 @@
+.profilepicture{
+	max-width: 300px;
+	max-height: 300px;
+	border-radius: 150px;
+	margin: 0px;
+}
+.profilepic{
+	position: relative;
+	padding: 30px;
+	padding-bottom: 10px;
+}
+input[type=text],input[type=email],input[type=password],input[type=date],select,input[type=submit],.listinput{
+	width: 500px;
+	height: 40px;
+	margin: 20px;
+	margin-bottom: 0px;
+	vertical-align: middle;
+	text-align: center;
+}
+input[type=tel]{
+	width: 400px;
+	height: 40px;
+	margin: 20px;
+	margin-bottom: 0px;
+	vertical-align: middle;
+	text-align: center;
+}
+input[type=radio]{
+	width: 30px;
+	height: 30px;
+	margin: 20px;
+	text-align: left;
+}
+.cc{
+	width: 70px;
+	margin-right: 10px;
+}
+.in{
+	display: table-row;
+}
+.radio{
+	text-align: left;
+	display: table-row;
+}
+.in label{
+	display: table-cell;
+	text-align: right;
+}
+.container{
+	text-align: center;
+}
+.inputs1{
+	text-align: center;
+	display: table;
+	float: none;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 30px;
+	padding-top: 0px;
+}
+form{
+	background: silver;
+}
+label{
+	font-size: 25px;
+	vertical-align: middle;
+}
+.errormsg{
+	text-align: left;
+	margin: 20px;
+	margin-top: 0px;
+	color: red;
+	vertical-align: top;
+	font-size: 20px;
+}
+.errormsg2{
+	margin: 20px;
+	margin-top: 0px;
+	color: red;
+	vertical-align: top;
+	font-size: 20px;
+}
+
+.ing{
+	display: table-cell;
+}
+.profilepic > input{
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+.addimage{
+	position: relative;
+}
+.ih{
+	position: absolute;
+	width: 80px;
+	height: 80px;
+	bottom: 50px;
+	padding: 0px;
+}
+.ih:active{
+	width: 70px;
+	height: 70px;
+}
