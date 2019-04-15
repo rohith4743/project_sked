@@ -1,0 +1,83 @@
+.logindiv{
+	margin-left: 5%;
+	margin-top: 30px;
+}
+.inputer{
+	text-align: center;
+	padding: 20px;
+}
+.logindiv .inputer a{
+	float: left;
+	vertical-align: middle;
+	margin-left: 30px;
+}
+.inputer img{
+	width: 30px;
+	height: 30px;
+}
+.registerdiv .inputer{
+	padding: 20px;
+	text-align: left;
+	margin-top: 20px;
+}
+li{
+	list-style: none;
+	padding-top: 20px;
+}
+.inputer input{
+	border: none;
+	border-bottom: solid 2px;
+	width: 300px;
+}
+.inputer button{
+	background: transparent;
+	border: none;
+	padding: 5px;
+	float: right;
+	margin-right: 35px;
+}
+.inputer button:hover{
+	background: lightblue;
+	height: 40px;
+	width: 40px;
+}
+.inputer button img{
+	vertical-align: middle;
+}
+.inputer button img:active{
+	width: 27px;
+	height: 27px;
+}
+.registerdiv{
+	margin-left: 5%; 
+	margin-top: 30px;
+}
+fieldset{
+	width: 450px;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+.errors{
+	color: red;
+	font-size: 15px;
+	float: left;
+}
+a{
+	font-size: 20px;
+	color:white;
+}
+legend{
+	font-size: 25px;
+	position: relative;
+	color:white; 
+}
+legend span {
+    height: 50%;
+    position: absolute;
+    color:  white;
+    overflow: hidden;  
+}
+body{
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+}

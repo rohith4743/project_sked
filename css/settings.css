@@ -1,0 +1,206 @@
+.title{
+    width: 100%;
+    color: whitesmoke;
+    font-family:"Comic Sans MS", cursive, sans-serif;
+    background-color: #333;
+    font-size: 30px;
+    padding: 10px;
+    height: 70px;
+}
+.title a{
+    float: right;
+    margin-right: 20px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.bodypart{
+    height: calc(100% - 70px);
+    background-color: #666;
+    padding: 30px;
+    width: 100%;
+}
+.settings_navigation{
+    width: 20%;
+    height: 100%;
+    border-right: 1px;
+    border-right-color: aliceblue;
+    border-right-style: groove;
+    float: left;
+}
+
+.settings_navigation button{
+    background: transparent;
+    border: none;
+    width: 100%;
+    height: 80px;
+    padding: 20px;
+    font-size: 30px;
+    color: azure;
+    text-align: left;
+}
+.settings_navigation button i{
+    margin-right: 20px;
+}
+.settings_navigation button:hover{
+    color: #fff;
+    cursor: pointer;
+}
+.settings_navigation button:active{
+    color: #fff;
+    cursor: pointer;
+    padding-top: 23px;
+    border: none;
+}
+.settings_text{
+    width: 80%;
+    height: 100%;
+    float: left;
+}
+.task{
+    padding: 10px;
+    float: left;
+    width: 80%;
+    margin-left: 60px;
+    margin-bottom: 15px;
+}
+.taskdetails{
+    padding: 10px;
+    padding-left: 30px;
+    background-color: rgba(167, 74, 74, 0.6);
+    width: 90%;
+    float: left;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.savebutton{
+    width: 10%;
+    float: left;
+}
+.save{
+    margin-left: 20px;
+    margin-top: 70px;
+    background: rgba(167, 74, 74, 0.4);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: antiquewhite;
+    border-radius: 10px;
+    border: none;
+    font-size: 17px;
+    padding: 4px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-transform: uppercase;
+}
+.save:disabled{
+    margin-left: 20px;
+    margin-top: 70px;
+    background: rgba(167, 74, 74, 0.4);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: rgba(250, 235, 215, 0.2);
+    border-radius: 10px;
+    border: none;
+    font-size: 17px;
+    padding: 4px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-transform: uppercase;
+}
+.taskdiv1{
+    width: 30%;
+    float: left;
+}
+.taskdiv2{
+    font-family: "Allerta Stencil";
+    width: 60%;
+    float: left;
+}
+.taskdiv3{
+    width: 10%;
+    float: left;
+    font-size: 60px;
+}
+.tasktimes{
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+}
+.tasktime{
+    float: left;
+    width: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(196, 248, 54, 0.6);
+    font-size: 20px;
+}
+.taskdays{
+    margin-top: 10px;
+    float: left;
+}
+.repeatday{
+    border: none;
+    background: transparent;
+    margin-right: 20px;
+    font-size: 20px;
+    color: rgba(241, 255, 202, 0.3)
+}
+.taskname{
+    color: rgba(116, 247, 40, 0.7);
+    font-size: 40px;
+    text-transform: capitalize;
+}
+.taskdescription{
+    color: rgba(167, 214, 38, 0.6);
+    font-size: 20px;
+}
+.deletetask{
+    background: transparent;
+    border: none;
+    color: rgba(236, 252, 192, 0.6);
+    margin-top: 20px;
+}
+.selectedday{
+    color: rgba(241, 255, 202, 1);
+}
+.dateline{
+    height: 50px;
+    color: white;
+    font-size: 20px;
+    margin-left: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+}
+.tasktable{
+    margin: 60px;
+    margin-top: 30px;
+}
+.dateline input{
+    margin-right: 30px;
+}
+.dateline label{
+    margin-right: 10px;
+}
+.tabled{
+    width: 100%;
+    overflow-x: auto;
+    background: -webkit-linear-gradient(left, #333, #666);
+    background: linear-gradient(to right, #333, #666);
+    text-align: center;
+    color: white;
+}
+thead{
+    background-color: rgba(24, 2, 2, 0.3);
+}
+tbody{
+   
+}
+.tabled thead tr{
+    height: 50px;
+    border: none;
+}
+td{
+    max-width: 200px;
+}
+.tabled tbody tr{
+    height: 50px;
+    /* border-bottom: 1px solid rgba(255,255,255,0.1); */
+}

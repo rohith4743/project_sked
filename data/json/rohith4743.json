@@ -1,0 +1,19 @@
+[
+    {
+        "eventid": "4",
+        "ename": "BATH",
+        "eventtype": "task",
+        "startdate": "2019-04-15 00:30:00",
+        "enddate": "2019-04-15 01:00:00",
+        "description": "",
+        "creator": "rohith4743",
+        "counterpaert": null,
+        "visibility": "public",
+        "venue": null,
+        "status": "yet",
+        "repeating": "mo.tu.",
+        "priority": "3",
+        "meetingid": null,
+        "qu": null
+    }
+]

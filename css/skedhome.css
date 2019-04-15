@@ -1,0 +1,160 @@
+.skedclock{
+    width:90%;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border: 1px solid whitesmoke;
+    color: whitesmoke;
+    background-color: #333;
+    padding-bottom: 20px;
+}
+.clocktime{
+    margin-top: 20px;
+    text-align: center;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 60px;
+}
+.clockdate{
+    margin-top: 10px;
+    text-align: center;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 30px;
+}
+.utc_time{
+    text-align: center;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 20px;
+    color: #aaa;
+}
+.btn{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.adbr{
+    padding: 25px;
+    margin-bottom: 20px;
+}
+.adb{
+    border: 1px solid whitesmoke;
+    background-color: #444;
+    color:white;
+    width:131px;
+    margin-right: 10px;
+    margin-left: 10px;
+    float: left;
+    padding: 10px;
+    text-transform: uppercase;
+    height: 50px;
+    text-align: center;
+    vertical-align: bottom;
+}
+.sm{
+    font-size: 14px;
+}
+a:hover{
+    color: aliceblue;
+    text-emphasis: none;
+    text-decoration:none;
+}
+.blocka{
+    width: 33.3%;
+    float: left;
+    height: 100px;
+}
+.blockb{
+    width: 33.3%;
+    float: left;
+    height: 100px;
+    color: whitesmoke;
+    font-size: 90px;
+    font-family:"Comic Sans MS", cursive, sans-serif;
+    text-align: center;
+    vertical-align: middle; 
+}
+.blockc{
+    width: 33.3%;
+    float: left;
+    height: 140px;
+    text-align: right;
+    vertical-align: bottom;
+}
+.blockc a{
+    margin-bottom: 0px;
+    margin-right: 40px;
+    color: aliceblue;
+    bottom: 0;
+}
+.ppic img{
+    max-width: 100px;
+    max-height: 100px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 60px;
+}
+.ppic{
+    float: left;
+    width: 140px;
+}
+.somes{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.somed{
+    color: white;
+    margin: 3px;
+    width: 300px;
+    float: left;
+    height: 20px;
+}
+.messages{
+    width: 100%;
+    padding: 35px;
+    text-align: left;
+    vertical-align: bottom;
+    margin-top: 40px;
+}
+.messages label{
+    color: whitesmoke;
+    font-size: 20px;
+    text-align: left;
+    vertical-align: bottom;
+}
+.messages hr{
+    background-color: white;
+    border-color: whitesmoke;
+    margin-top: 0%;
+}
+.d1{
+    color: whitesmoke;
+    width: 90%;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 10px;
+}
+.d4{
+    color: whitesmoke;
+    width: 10%;
+    font-size: 30px;
+    display: table-cell;
+    text-align: right;
+    padding: 10px;
+    vertical-align: middle;
+    float: none;
+}
+.d4 button{
+    background-color: transparent;
+    border: none;
+    color: whitesmoke;
+}
+.messag{
+    background-color: rgba(20,20,20,0.4);
+    margin-bottom: 10px;
+}
+.d2 span{
+    color: lightblue;
+}
+.d3{
+    color: lightcyan;
+}

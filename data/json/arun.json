@@ -1,0 +1,19 @@
+[
+    {
+        "eventid": "2",
+        "ename": "GYM",
+        "eventtype": "task",
+        "startdate": "2019-04-15 23:30:00",
+        "enddate": "2019-04-15 01:00:00",
+        "description": "GYM",
+        "creator": "arun",
+        "counterpaert": null,
+        "visibility": "friends",
+        "venue": null,
+        "status": "yet",
+        "repeating": "su.mo.tu.we.th.fr.sa.",
+        "priority": "2",
+        "meetingid": null,
+        "qu": null
+    }
+]

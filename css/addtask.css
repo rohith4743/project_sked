@@ -1,0 +1,32 @@
+.error{
+    color: red;
+    font-size: 15px;
+}
+.ttype div{
+    width: 10%;
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+}
+.ttype div img{
+    width: 100px;
+    height: 100px;
+}
+.ttype div:hover{
+    border: 1px solid lightblue;
+}
+.ttype div:active{
+    background: lightcyan;
+}
+.ttype{
+    padding: 20px;
+	height: 160px;
+	overflow-x: scroll;
+    text-align: center;
+    margin-top: 10px;
+}
+#wed{
+    font-size: 14px;
+    vertical-align: bottom;
+}
